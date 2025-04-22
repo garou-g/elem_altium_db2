@@ -1,0 +1,9 @@
+# Altium preview folders
+__Previews
+
+# Altium history folders
+History
+
+# New Altium always creates link to its default lib
+*Altium System Library.lnk
+
