@@ -1,0 +1,112 @@
+[OutputDatabaseLinkFile]
+Version=1.1
+[DatabaseLinks]
+ConnectionString=Provider=MICROSOFT.ACE.OLEDB.12.0;Data Source=E:\Git\elem_altium_db2\library\discrete.xlsx;Extended Properties="Excel 8.0;HDR=Yes;IMEX=1"
+AddMode=3
+RemoveMode=1
+UpdateMode=2
+ViewMode=0
+LeftQuote=[
+RightQuote=]
+QuoteTableNames=1
+UseTableSchemaName=0
+DefaultColumnType=VARCHAR(255)
+LibraryDatabaseType=Microsoft Excel
+LibraryDatabasePath=discrete.xlsx
+DatabasePathRelative=1
+TopPanelCollapsed=0
+LibrarySearchPath=sch;pcb
+OrcadMultiValueDelimiter=,
+SearchSubDirectories=0
+SchemaName=
+LastFocusedTable=resistance$
+[Table1]
+SchemaName=
+TableName=capacitor$
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Nominal0=66|Tolerance0=73|Voltage0=71|Dielectric0=70|Size0=46|Library Ref0=83|Footprint Ref0=92|Value0=56|Part Number0=249|Part Number Ru0=249|Part Number En0=175|Manufacturer0=93
+[Table2]
+SchemaName=
+TableName=inductance$
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Nominal0=66|Tolerance0=73|Size0=43|Library Ref0=139|Footprint Ref0=114|Value0=107|Part Number0=157|Part Number Ru0=157|Part Number En0=178|Manufacturer0=103|Manufacturer Part Number0=160
+[Table3]
+SchemaName=
+TableName=misc$
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=87|Size0=43|Part Number Ru0=104|Part Number En0=103|Library Ref0=77|Footprint Ref0=92|Manufacturer0=93|TU0=37
+[Table4]
+SchemaName=
+TableName=oscillator$
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=136|Value0=63|Part Number Ru0=136|Part Number En0=136|Library Ref0=80|Footprint Ref0=92|Manufacturer0=136|TU0=37
+[Table5]
+SchemaName=
+TableName=resistance$
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Nominal0=100|Tolerance0=100|Power0=100|Size0=100|Library Ref0=100|Footprint Ref0=100|Value0=100|Part Number0=100|Part Number Ru0=100|Part Number En0=100|TU0=100|F120=100|F130=100
+[Table6]
+SchemaName=
+TableName=switch$
+Enabled=True
+UserWhere=0
+UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=125|Part Number Ru0=125|Part Number En0=125|Library Ref0=77|Footprint Ref0=92|Manufacturer0=108|Manufacturer Part Number0=160|TU0=37|F90=35
+[FieldMap1]
+Options=FieldName=capacitor$.Library Ref|TableNameOnly=capacitor$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap2]
+Options=FieldName=capacitor$.Footprint Ref|TableNameOnly=capacitor$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap3]
+Options=FieldName=capacitor$.Part Number|TableNameOnly=capacitor$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap4]
+Options=FieldName=inductance$.Library Ref|TableNameOnly=inductance$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap5]
+Options=FieldName=inductance$.Footprint Ref|TableNameOnly=inductance$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap6]
+Options=FieldName=inductance$.Part Number|TableNameOnly=inductance$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap7]
+Options=FieldName=misc$.Part Number|TableNameOnly=misc$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap8]
+Options=FieldName=misc$.Library Ref|TableNameOnly=misc$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap9]
+Options=FieldName=misc$.Footprint Ref|TableNameOnly=misc$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap10]
+Options=FieldName=oscillator$.Part Number|TableNameOnly=oscillator$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap11]
+Options=FieldName=oscillator$.Library Ref|TableNameOnly=oscillator$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap12]
+Options=FieldName=oscillator$.Footprint Ref|TableNameOnly=oscillator$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap13]
+Options=FieldName=resistance$.Library Ref|TableNameOnly=resistance$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap14]
+Options=FieldName=resistance$.Footprint Ref|TableNameOnly=resistance$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap15]
+Options=FieldName=resistance$.Part Number|TableNameOnly=resistance$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap16]
+Options=FieldName=switch$.Part Number|TableNameOnly=switch$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap17]
+Options=FieldName=switch$.Library Ref|TableNameOnly=switch$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
+[FieldMap18]
+Options=FieldName=switch$.Footprint Ref|TableNameOnly=switch$|FieldNameOnly=Footprint Ref|FieldType=1|ParameterName=[Footprint Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
