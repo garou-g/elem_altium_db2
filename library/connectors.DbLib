@@ -1,7 +1,7 @@
 [OutputDatabaseLinkFile]
 Version=1.1
 [DatabaseLinks]
-ConnectionString=Provider=MICROSOFT.ACE.OLEDB.12.0;Data Source=E:\Git\elem_altium_db2\library\connectors.xlsx;Extended Properties="Excel 8.0;HDR=Yes;IMEX=1"
+ConnectionString=Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\GitProjects\elem_altium_db2\library\connectors.xlsx;Extended Properties="Excel 12.0 Xml;HDR=Yes;IMEX=1"
 AddMode=3
 RemoveMode=1
 UpdateMode=2
@@ -11,13 +11,13 @@ RightQuote=]
 QuoteTableNames=1
 UseTableSchemaName=0
 DefaultColumnType=VARCHAR(255)
-LibraryDatabaseType=Microsoft Excel
+LibraryDatabaseType=Microsoft Excel 2007
 LibraryDatabasePath=connectors.xlsx
 DatabasePathRelative=1
 TopPanelCollapsed=0
 LibrarySearchPath=sch;pcb
 OrcadMultiValueDelimiter=,
-SearchSubDirectories=0
+SearchSubDirectories=1
 SchemaName=
 LastFocusedTable=Connectors$
 [Table1]
@@ -25,25 +25,37 @@ SchemaName=
 TableName=Connectors$
 Enabled=True
 UserWhere=0
-UserWhereText=
+UserWhereText=[Part Number] = '{Part Number}'
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=205|Library Ref0=77|Footprint Ref0=172|Part Number Ru0=143|Part Number En0=143|Manufacturer0=117|F70=35|F80=35|F90=35|F100=41|F110=41
 [Table2]
 SchemaName=
 TableName=D-SUB$
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=87|Library Ref0=77|Footprint Ref0=92|Part Number Ru0=104|Part Number En0=103|Manufacturer0=93|F70=35|F80=35|F90=35|F100=41|F110=41
 [Table3]
 SchemaName=
 TableName=Pads$
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=112|Library Ref0=77|Footprint Ref0=92|Part Number Ru0=104|Part Number En0=103|Manufacturer0=93|F70=35|F80=35|F90=35|F100=41|F110=41
 [Table4]
 SchemaName=
 TableName=Russian$
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=137|Library Ref0=77|Footprint Ref0=101|Part Number Ru0=137|Part Number En0=137|TU0=216
 [FieldMap1]
 Options=FieldName=Connectors$.Part Number|TableNameOnly=Connectors$|FieldNameOnly=Part Number|FieldType=0|ParameterName=Part Number|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap2]

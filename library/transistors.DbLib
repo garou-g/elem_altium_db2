@@ -1,7 +1,7 @@
 [OutputDatabaseLinkFile]
 Version=1.1
 [DatabaseLinks]
-ConnectionString=Provider=MICROSOFT.ACE.OLEDB.12.0;Data Source=E:\Git\elem_altium_db2\library\transistors.xlsx;Extended Properties="Excel 8.0;HDR=Yes;IMEX=1"
+ConnectionString=Provider=MICROSOFT.ACE.OLEDB.12.0;Data Source=C:\GitProjects\elem_altium_db2\library\transistors.xlsx;Extended Properties="Excel 8.0;HDR=Yes;IMEX=1"
 AddMode=3
 RemoveMode=1
 UpdateMode=2
@@ -17,7 +17,7 @@ DatabasePathRelative=1
 TopPanelCollapsed=0
 LibrarySearchPath=sch;pcb
 OrcadMultiValueDelimiter=,
-SearchSubDirectories=0
+SearchSubDirectories=1
 SchemaName=
 LastFocusedTable=nmos$
 [Table1]
