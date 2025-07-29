@@ -15,7 +15,7 @@ LibraryDatabaseType=Microsoft Excel
 LibraryDatabasePath=discrete.xlsx
 DatabasePathRelative=1
 TopPanelCollapsed=0
-LibrarySearchPath=sch;pcb
+LibrarySearchPath=pcb;sch
 OrcadMultiValueDelimiter=,
 SearchSubDirectories=1
 SchemaName=
@@ -26,36 +26,54 @@ TableName=capacitor$
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Library Ref0=83|Footprint Ref0=92|Part Number0=249|Nominal0=66|Tolerance0=73|Voltage0=71|Dielectric0=70|Size0=46|Value0=56|Part Number Ru0=249|Part Number En0=175|Manufacturer0=126
 [Table2]
 SchemaName=
 TableName=inductance$
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Library Ref0=139|Footprint Ref0=114|Part Number0=157|Nominal0=66|Tolerance0=73|Size0=43|Value0=107|Part Number Ru0=157|Part Number En0=178|Manufacturer0=103|Manufacturer Part Number0=160
 [Table3]
 SchemaName=
 TableName=misc$
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=87|Library Ref0=77|Footprint Ref0=92|Size0=43|Part Number Ru0=104|Part Number En0=103|Manufacturer0=93|TU0=37
 [Table4]
 SchemaName=
 TableName=oscillator$
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=136|Library Ref0=80|Footprint Ref0=92|Value0=63|Part Number Ru0=136|Part Number En0=136|Manufacturer0=136|TU0=37
 [Table5]
 SchemaName=
 TableName=resistance$
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Library Ref0=100|Footprint Ref0=100|Part Number0=100|Nominal0=100|Tolerance0=100|Power0=100|Size0=100|Value0=100|Part Number Ru0=100|Part Number En0=100|TU0=100|F120=100|F130=100
 [Table6]
 SchemaName=
 TableName=switch$
 Enabled=True
 UserWhere=0
 UserWhereText=
+BrowserOrder_Sorting=
+BrowserOrder_Grouping=
+BrowserOrder_Visible=Part Number0=125|Library Ref0=77|Footprint Ref0=92|Part Number Ru0=125|Part Number En0=125|Manufacturer0=108|Manufacturer Part Number0=160|TU0=37|F90=35
 [FieldMap1]
 Options=FieldName=capacitor$.Library Ref|TableNameOnly=capacitor$|FieldNameOnly=Library Ref|FieldType=1|ParameterName=[Library Ref]|VisibleOnAdd=False|AddMode=0|RemoveMode=0|UpdateMode=0
 [FieldMap2]
